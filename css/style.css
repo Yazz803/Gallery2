@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/NecoArcWallpaper.jpg);
+    background-size: cover;
+}
+/* * {
+    box-sizing: border-box;
+} */
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+/* kiri */
+.kiri {
+    width: 15%;
+    margin-top: -25px;
+    height: 700px;
+    background-color: rgba(128, 128, 128, 0.671);
+    float: left;
+}
+.kiri h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+.kiri ul li a {
+    text-decoration: none;
+    color: white;
+}
+.kiri ul li a:hover {
+    color: red;
+}
+.kiri ul li {
+    margin-bottom: 10px;
+}
+
+/* kanan */
+.kanan {
+    width: 85%;
+    background-color: rgba(0, 0, 0, 0.178);
+    height: 700px;
+    float: right;
+    margin-top: -25px;
+}
+.kanan h1 {
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black;
+}
+
+@media (max-width: 1000px) {
+    .kiri {
+        width: 25%;
+    }
+    .kiri h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        color: white;
+        text-shadow: 0 0 1px black, 0 0 2px black, 0 0 3px black;
+    }
+    .kiri ul li {
+        margin-left: -20px;
+        font-size: 12px;
+    }
+    
+    .kanan {
+        width: 75%;
+    }
+
+}
